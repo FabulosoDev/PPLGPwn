@@ -28,35 +28,30 @@ INSTALLATION
 echo -e "
 
 ${CYAN}-------
+Choose firmware version...
+-------${NC}
+"
+read -p "Firmware version (750-1100): " fmv
+echo -e "
+
+${CYAN}-------
 Downloading files...
 -------${NC}
 "
-wget https://github.com/zauceee/PPLGPwn/archive/refs/heads/zauceee-PPLGPwn-v-1-1.zip
+curl -k -L -o /media/internal/downloads/PPLGPwn https://github.com/FabulosoDev/PPLGPwn/raw/main/pppwn
+curl -k -L -o /media/internal/downloads/PPLGPwn https://github.com/FabulosoDev/PPLGPwn/raw/main/run.sh
+curl -k -L -o /media/internal/downloads/PPLGPwn https://github.com/FabulosoDev/PPLGPwn/raw/main/stage1/$fmv/stage1.bin
+curl -k -L -o /media/internal/downloads/PPLGPwn https://github.com/FabulosoDev/PPLGPwn/raw/main/stage2/$fmv/stage2.bin
 
 echo -e "Done!
 
 ${CYAN}-------
-Setting up files...
+Writing settings...
 -------${NC}
 "
 
-unzip PPLGPwn-main.zip
-
-mv ./PPLGPwn-main/PPLGPwn-main /media/internal/downloads/PPLGPwn
-
-echo -e "Done!
-
-${CYAN}-------
-CONFIGURATION
--------${NC}
-"
-
-read -p "What's the interface's name? " int
-read -p "Firmware version (750-1100): " fmv
-
-echo "Writing settings..."
 echo "
-interface=$int 
+interface=eth0
 firmver=$fmv
 stage1=/media/internal/downloads/PPLGPwn/stage1.bin
 stage2=/media/internal/downloads/PPLGPwn/stage2.bin
@@ -65,9 +60,9 @@ echo "Done!
 "
 echo "If you wish to change the stage2.bin go into /media/internal/downloads/PPLGPwn and replace the exisiting stage2.bin!
 "
-
 echo "To run the exploit execute "run.sh" present in the mentioned directory! But to make it simplier follow the steps to execute the exploit with the click of a button! :)"
 echo "Enjoy ;)"
+
 luna-send -a webosbrew -f -n 1 luna://com.webos.notification/createToast '{"sourceId":"webosbrew","message": "<b>PPLGPwn installed.</b>"}'
 
 echo "Running PPLGPWN in 3 seconds..."
@@ -76,7 +71,3 @@ sleep 3
 cd /media/internal/downloads/PPLGPwn
 chmod +x ./run.sh
 ./run.sh
-
-
-
-
