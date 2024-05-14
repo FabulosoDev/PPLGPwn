@@ -72,12 +72,13 @@ cd /media/internal/downloads/PPLGPwn && chmod +x ./run.sh && ./run.sh
 **And done!** The button you setup with the custom action will now execute the exploit everytime you press it!
 
 # NOTES
-!! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
+!! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch !!  
+To know your TV chip architecture run ```uname -m```
 
-!! This exploit stage2 runs LightningMod's load from usb payload !!
+~~!! This exploit stage2 runs LightningMod's load from usb payload !!~~
 
 Proudly **🇵🇹** <3
 
-Thanks to the OpenLGTV and the RootMyTV communities that gave us this TV Jailbreak
+Thanks to the OpenLGTV and the RootMyTV communities that gave us this TV Jailbreak.  
 Also a thanks to everyone in the PS4 jailbreaking community that gave us the exploits!
 And also thanks to all the contributors!
