@@ -1,6 +1,6 @@
 # PPLGPwn
 A method of executing PPPwn through rooted LGTV's.
-This method is using the C++ version of PPPwn, made by xfangxfang, the link to the repo it's this one:
+This method is using the C++ version of PPPwn, made by xfangfang, the link to the repo it's this one:
 https://github.com/xfangfang/PPPwn_cpp
 
 It provides a new way of jailbreaking your PS4, using a rooted LGTV.
@@ -34,11 +34,13 @@ wget https://github.com/zauceee/PPLGPwn/releases/download/v1.1/install.sh && sou
 
 3. Setup this custom **Execute** action to any button you'd like:
 
-```cd /media/internal/downloads/PPLGPwn && chmod +x ./run.sh && ./run.sh```   
+```
+cd /media/internal/downloads/PPLGPwn && chmod +x ./run.sh && ./run.sh
+```   
 
 4. Save your changes
 
-**And done!** The button you setup with the custom action execute the exploit everytime you press it!
+**And done!** The button you setup with the custom action will know execute the exploit everytime you press it!
 
 # NOTES
 !! This exploit is made for TV's with the armv7, I'm unsure if it works on any other different arch, to know your TV chip architecture run ```uname -m``` !!
