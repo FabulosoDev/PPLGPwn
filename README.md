@@ -56,7 +56,7 @@ If the exploit fails or the PS4 crashes, you can skip the internet setup and sim
 
 If the exploit works, you should see an output similar to below, and you should see ```Cannot connect to network```. followed by ```PPPwned``` printed on your PS4, or the other way around.
 
-## Execution with a single click on your TV remote
+## Launch PPLGPwn with a single click on your TV remote
 1. Head to the [Homebrew Store](https://www.webosbrew.org/) app and download [LG Input Hook](https://repo.webosbrew.org/apps/org.webosbrew.inputhook/)
 
 2. Open the LG Input Hook and head to the link the app gives you in a device that has a web browser (you can also do this in your TV, but it will take more time)
