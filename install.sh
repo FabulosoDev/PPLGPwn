@@ -3,6 +3,7 @@ clear
 GREEN='\033[0;92m' 
 BLUE='\033[0;94m'
 PURPLE='\033[0;95m'
+CYAN='\033[0;96m'
 NC='\033[0m' # No Color
 
 echo -e "${GREEN}
@@ -19,8 +20,9 @@ echo -e "${GREEN}
 
 ${NC}
 Designed for LG webOS TVs! Ported by ${PURPLE}Kodeine${NC}, with luv <3
-With the contribution of ${BLUE}llbranco${NC}!
-Version: v1.1
+With the contribution of ${BLUE}llbranco${NC} & ${BLUE}FabulosoDev${NC}!
+Version: v1.2
+
 ${CYAN}-------
 INSTALLATION
 -------${NC}
@@ -31,17 +33,17 @@ ${CYAN}-------
 Choose firmware version...
 -------${NC}
 "
-read -p "Firmware version (750-1100): " fmv
+read -p "Firmware version (900-1100): " fmv
 echo -e "
 
 ${CYAN}-------
 Downloading files...
 -------${NC}
 "
-curl -k -L -o /media/internal/downloads/PPLGPwn https://github.com/FabulosoDev/PPLGPwn/raw/main/pppwn
-curl -k -L -o /media/internal/downloads/PPLGPwn https://github.com/FabulosoDev/PPLGPwn/raw/main/run.sh
-curl -k -L -o /media/internal/downloads/PPLGPwn https://github.com/FabulosoDev/PPLGPwn/raw/main/stage1/$fmv/stage1.bin
-curl -k -L -o /media/internal/downloads/PPLGPwn https://github.com/FabulosoDev/PPLGPwn/raw/main/stage2/$fmv/stage2.bin
+curl -k -L -o /media/internal/downloads/PPLGPwn/pppwn https://github.com/FabulosoDev/PPLGPwn/raw/main/pppwn
+curl -k -L -o /media/internal/downloads/PPLGPwn/run.sh https://github.com/FabulosoDev/PPLGPwn/raw/main/run.sh
+curl -k -L -o /media/internal/downloads/PPLGPwn/stage1.bin https://github.com/FabulosoDev/PPLGPwn/raw/main/stage1/$fmv/stage1.bin
+curl -k -L -o /media/internal/downloads/PPLGPwn/stage2.bin https://github.com/FabulosoDev/PPLGPwn/raw/main/stage2/$fmv/stage2.bin
 
 echo -e "Done!
 
