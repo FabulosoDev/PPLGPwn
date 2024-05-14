@@ -40,6 +40,7 @@ ${CYAN}-------
 Downloading files...
 -------${NC}
 "
+mkdir -p /media/internal/downloads/PPLGPwn
 curl -k -L -o /media/internal/downloads/PPLGPwn/pppwn https://github.com/FabulosoDev/PPLGPwn/raw/main/pppwn
 curl -k -L -o /media/internal/downloads/PPLGPwn/run.sh https://github.com/FabulosoDev/PPLGPwn/raw/main/run.sh
 curl -k -L -o /media/internal/downloads/PPLGPwn/stage1.bin https://github.com/FabulosoDev/PPLGPwn/raw/main/stage1/$fmv/stage1.bin
