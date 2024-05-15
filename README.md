@@ -22,15 +22,15 @@ Special thanks to [@TheOfficialFloW](https://github.com/TheOfficialFloW) [@xfang
 ## Jailbreak your LG TV
 
 To run PPLGPwn you'll need to root your LGTV, the root itself it supported by a couple of models, check both exploits to see if your TV is capable of doing so, more steps on how to root it and activate SSH aswell are available there:
-### Dejavuln: https://github.com/throwaway96/dejavuln-autoroot
-### Root my TV: https://rootmy.tv/
+#### Dejavuln: https://github.com/throwaway96/dejavuln-autoroot
+#### Root my TV: https://rootmy.tv/
 
 ## Install & launch PPLGPwn
 
 After you jailbreak your own TV (ironic on how we use a jailbroken TV to jailbreak another device lol), you will need to connect to your TV via SSH and download/run the ```install.sh``` through this command:
 
 ```
-curl -k -L -O https://github.com/FabulosoDev/PPLGPwn/raw/main/install.sh && ./install.sh
+curl -k -L -O https://github.com/FabulosoDev/PPLGPwn/raw/main/install.sh && chmod +x ./install.sh && ./install.sh
 ```
 
 ### On your PS4:
