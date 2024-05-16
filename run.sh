@@ -19,9 +19,8 @@ echo -e "${GREEN}
 888        888        88888888 Y8888P88  888        888P     Y888 888    Y888 
 
 ${NC}
-Designed for LG webOS TVs! Ported by ${PURPLE}Kodeine${NC}, with luv <3
-With the contribution of ${BLUE}llbranco${NC} & ${BLUE}FabulosoDev${NC}!
-Version: v1.2
+Designed for LG webOS TVs! Ported by ${PURPLE}Kodeine & Contributors${NC}, with luv <3
+Version: v1.2 (by FabulosoDev)
 
 ${CYAN}-------
 RUNNING
