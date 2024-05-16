@@ -74,10 +74,10 @@ Downloading files...
 -------${NC}
 "
 mkdir -p /media/internal/downloads/PPLGPwn
-curl -k -L -o /media/internal/downloads/PPLGPwn/pppwn https://github.com/FabulosoDev/PPLGPwn/raw/main/pppwn_$cpu_arch
-curl -k -L -o /media/internal/downloads/PPLGPwn/run.sh https://github.com/FabulosoDev/PPLGPwn/raw/main/run.sh
-curl -k -L -o /media/internal/downloads/PPLGPwn/stage1.bin https://github.com/FabulosoDev/PPLGPwn/raw/main/stage1/$fmv/stage1.bin
-curl -k -L -o /media/internal/downloads/PPLGPwn/stage2.bin https://github.com/FabulosoDev/PPLGPwn/raw/main/stage2/$fmv/stage2.bin
+curl -fsSL -o /media/internal/downloads/PPLGPwn/pppwn https://github.com/FabulosoDev/PPLGPwn/raw/main/pppwn_$cpu_arch
+curl -fsSL -o /media/internal/downloads/PPLGPwn/run.sh https://github.com/FabulosoDev/PPLGPwn/raw/main/run.sh
+curl -fsSL -o /media/internal/downloads/PPLGPwn/stage1.bin https://github.com/FabulosoDev/PPLGPwn/raw/main/stage1/$fmv/stage1.bin
+curl -fsSL -o /media/internal/downloads/PPLGPwn/stage2.bin https://github.com/FabulosoDev/PPLGPwn/raw/main/stage2/$fmv/stage2.bin
 
 echo -e "Done!
 
