@@ -6,7 +6,7 @@ https://github.com/xfangfang/PPPwn_cpp
 It provides a new way to jailbreak your PS4, using a rooted LG TV.
 For more information on which firmwares are supported, check out the link above.
 
-![image](https://github.com/FabulosoDev/PPLGPwn/assets/113933725/09fe206d-b08d-48cf-a6fe-527ef47e0b66)
+![image](https://github.com/FabulosoDev/PPLGPwn/assets/113933725/e971217e-9847-47b7-b3d9-92ad85f050c1)
 
 ## Changes compared to [zauceee/PPLGPwn](https://github.com/zauceee/PPLGPwn)
 - use curl instead of wget to download files
