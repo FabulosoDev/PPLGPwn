@@ -1,6 +1,8 @@
 clear
 
+RED='\033[0;91m'
 GREEN='\033[0;92m'
+YELLOW='\033[0;93m'
 BLUE='\033[0;94m'
 PURPLE='\033[0;95m'
 CYAN='\033[0;96m'
@@ -19,8 +21,8 @@ echo -e "${GREEN}
 888        888        88888888 Y8888P88  888        888P     Y888 888    Y888 
 
 ${NC}
-Designed for LG webOS TVs! Ported by ${PURPLE}Kodeine & Contributors${NC}, with luv <3
-Version: v1.2 (by FabulosoDev)
+Designed for LG webOS TVs! Ported by ${PURPLE}Kodeine${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
+Version: v1.2 (${BLUE}by FabulosoDev${NC})
 
 ${CYAN}-------
 RUNNING
